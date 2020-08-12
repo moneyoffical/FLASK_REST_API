@@ -35,6 +35,6 @@ api.add_resource(UserRegister,'/register')
 api.add_resource(UsersList,'/users')
 
 if __name__ == '__main__':
-    from db import db
-    db.__init__(app)
+    #from db import db
+    #db.__init__(app)
     app.run(debug=True)
